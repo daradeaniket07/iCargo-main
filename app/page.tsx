@@ -198,7 +198,8 @@ export default function HomePage() {
       {/* ---------------- SHOW SCREEN CONTENT ---------------- */}
       {showContent && (
         <div className="mt-10 flex justify-center pb-20 px-3">
-          <div className="w-full max-w-[1300px]">
+            <div className="w-full xl:max-w-none px-4">
+
             {selectedScreen === "OPR026" && <OPR026 awb={awb} />}
             {selectedScreen === "OPR352" && <OPR352 awb={awb} />}
           </div>

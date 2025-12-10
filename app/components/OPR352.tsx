@@ -106,7 +106,9 @@ export default function OPR352({ awb }: { awb: string }) {
   };
 
   return (
-    <div className="w-full max-w-[1200px] mx-auto px-2 sm:px-4 pb-8 mt-6">
+    // <div className="w-full max-w-[1200px] mx-auto px-2 sm:px-4 pb-8 mt-6">
+    <div className="w-full xl:max-w-none px-4">
+
 
       {/* -------- EXTERNAL MESSAGING -------- */}
       <div className="bg-white border rounded shadow-sm">

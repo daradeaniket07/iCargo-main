@@ -175,7 +175,9 @@ SSR/SECURITY STATUS AS PER ATTACHEMENT SX DERA01674-01
   return (
     <div className="min-h-screen bg-gray-100 p-3 sm:p-6">
       {/* Center Wrapper with responsive width */}
-      <div className="w-full max-w-[980px] mx-auto">
+      {/* <div className="w-full max-w-[980px] mx-auto"> */}
+      <div className="w-full xl:max-w-none px-4">
+
 
         {/* ---------- HEADER ---------- */}
         <div className="bg-blue-50 border border-blue-200 rounded-t px-3 sm:px-4 py-3 
